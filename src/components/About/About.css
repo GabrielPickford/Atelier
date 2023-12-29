@@ -1,0 +1,196 @@
+.div {
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #fff;
+    display: flex;
+    padding-top: 40px;
+    flex-direction: column;
+  }
+  .div-2 {
+    justify-content: center;
+    color: #000;
+    text-align: center;
+    font: 200 40px FONTSPRING DEMO - Artis-Sans Extralight, -apple-system,
+      Roboto, Helvetica, sans-serif;
+  }
+  .div-3 {
+    background-color: var(--Ate-Primary-2, #4d6c4e);
+    align-self: stretch;
+    margin-top: 29px;
+    width: 100%;
+    padding: 0 39px;
+  }
+  @media (max-width: 991px) {
+    .div-3 {
+      max-width: 100%;
+      padding: 0 20px;
+    }
+  }
+  .div-4 {
+    gap: 20px;
+    display: flex;
+  }
+  @media (max-width: 991px) {
+    .div-4 {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0px;
+    }
+  }
+  .column {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 27%;
+    margin-left: 0px;
+  }
+  @media (max-width: 991px) {
+    .column {
+      width: 100%;
+    }
+  }
+  .div-5 {
+    justify-content: center;
+    align-items: center;
+    background-color: var(--Ate-Primary-2, #4d6c4e);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 50px 42px;
+  }
+  @media (max-width: 991px) {
+    .div-5 {
+      padding: 0 20px;
+    }
+  }
+  .div-6 {
+    color: var(--Ate-Secondary-1, #ffd7cd);
+    margin-top: 154px;
+    white-space: nowrap;
+    font: 200 50px FONTSPRING DEMO - Artis-Sans Extralight, -apple-system,
+      Roboto, Helvetica, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-6 {
+      font-size: 40px;
+      margin-top: 40px;
+      white-space: initial;
+    }
+  }
+  .div-7 {
+    justify-content: center;
+    color: var(--Ate-Secondary-1, #ffd7cd);
+    text-align: center;
+    letter-spacing: -0.32px;
+    align-self: stretch;
+    margin: 21px 0 119px;
+    font: 400 16px Mulish, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-7 {
+      margin-bottom: 40px;
+    }
+  }
+  .column-2 {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 45%;
+    margin-left: 20px;
+  }
+  @media (max-width: 991px) {
+    .column-2 {
+      width: 100%;
+    }
+  }
+  .div-8 {
+    display: flex;
+    flex-direction: column;
+  }
+  @media (max-width: 991px) {
+    .div-8 {
+      max-width: 100%;
+    }
+  }
+  .img {
+    aspect-ratio: 1.02;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+    overflow: hidden;
+  }
+  @media (max-width: 991px) {
+    .img {
+      max-width: 100%;
+    }
+  }
+  .div-9 {
+    justify-content: center;
+    color: var(--Ate-Secondary-1, #ffd7cd);
+    text-align: center;
+    border: 1px solid var(--Ate-Secondary-1, #ffd7cd);
+    align-self: center;
+    padding: 13px 32px;
+    font: 400 18px SierraW04-Regular, -apple-system, Roboto, Helvetica,
+      sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-9 {
+      padding: 0 20px;
+    }
+  }
+  .column-3 {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 27%;
+    margin-left: 20px;
+  }
+  @media (max-width: 991px) {
+    .column-3 {
+      width: 100%;
+    }
+  }
+  .div-10 {
+    justify-content: center;
+    background-color: var(--Ate-Primary-2, #4d6c4e);
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    width: 100%;
+    padding: 50px 42px;
+  }
+  @media (max-width: 991px) {
+    .div-10 {
+      padding: 0 20px;
+    }
+  }
+  .div-11 {
+    justify-content: center;
+    color: var(--Ate-Secondary-1, #ffd7cd);
+    text-align: center;
+    letter-spacing: -0.32px;
+    margin-top: 178px;
+    font: 400 16px Mulish, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-11 {
+      margin-top: 40px;
+    }
+  }
+  .div-12 {
+    color: var(--Ate-Secondary-1, #ffd7cd);
+    text-align: center;
+    letter-spacing: -0.48px;
+    text-decoration-line: underline;
+    align-self: center;
+    white-space: nowrap;
+    margin: 21px 0 132px;
+    font: 300 24px Mulish, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-12 {
+      margin-bottom: 40px;
+      white-space: initial;
+    }
+  }

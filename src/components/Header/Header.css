@@ -1,0 +1,117 @@
+.container-header {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px 0;
+  }
+  .borde-header {
+    width: 100%;
+    margin: 53px 0 32px;
+  }
+  @media (max-width: 991px) {
+    .borde-header {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  }
+  .div-img {
+    gap: 20px;
+    display: flex;
+  }
+  @media (max-width: 991px) {
+    .div-img {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0px;
+    }
+  }
+  .column-img {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 71%;
+    margin-left: 0px;
+  }
+  @media (max-width: 991px) {
+    .column-img {
+      width: 100%;
+    }
+  }
+  .model-girl {
+    aspect-ratio: 1.77;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+    overflow: hidden;
+    flex-grow: 1;
+  }
+  @media (max-width: 991px) {
+    .model-girl {
+      max-width: 100%;
+    }
+  }
+  .column-text {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 29%;
+    margin-left: 20px;
+  }
+  @media (max-width: 991px) {
+    .column-text {
+      width: 100%;
+    }
+  }
+  .gift-text {
+    background-color: #fff;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    width: 100%;
+    padding: 50px 60px;
+  }
+  @media (max-width: 991px) {
+    .gift-text {
+      padding: 0 20px;
+    }
+  }
+  .atelier-gifts {
+    color: #000;
+    align-self: center;
+    margin-top: 80px;
+    white-space: nowrap;
+    font: 200 50px FONTSPRING DEMO - Artis-Sans Extralight, -apple-system,
+      Roboto, Helvetica, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .atelier-gifts{
+      font-size: 40px;
+      margin-top: 40px;
+      white-space: initial;
+    }
+  }
+  .holiday-text {
+    justify-content: center;
+    color: #000;
+    text-align: center;
+    letter-spacing: -0.32px;
+    margin-top: 21px;
+    font: 400 16px Mulish, sans-serif;
+  }
+  .ver-catalogo {
+    color: #000;
+    text-align: center;
+    letter-spacing: -0.48px;
+    text-decoration-line: underline;
+    align-self: center;
+    white-space: nowrap;
+    margin: 21px 0 64px;
+    font: 300 24px Mulish, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .ver-catalogo {
+      margin-bottom: 40px;
+      white-space: initial;
+    }
+  }
