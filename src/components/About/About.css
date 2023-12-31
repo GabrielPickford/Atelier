@@ -1,4 +1,4 @@
-.div {
+.about-container {
     justify-content: flex-end;
     align-items: center;
     background-color: #fff;
@@ -6,14 +6,14 @@
     padding-top: 40px;
     flex-direction: column;
   }
-  .div-2 {
+  .about-handmade-jewelry {
     justify-content: center;
     color: #000;
     text-align: center;
     font: 200 40px FONTSPRING DEMO - Artis-Sans Extralight, -apple-system,
       Roboto, Helvetica, sans-serif;
   }
-  .div-3 {
+  .about-green-container {
     background-color: var(--Ate-Primary-2, #4d6c4e);
     align-self: stretch;
     margin-top: 29px;
@@ -21,23 +21,23 @@
     padding: 0 39px;
   }
   @media (max-width: 991px) {
-    .div-3 {
+    .about-green-container {
       max-width: 100%;
       padding: 0 20px;
     }
   }
-  .div-4 {
+  .div-4-about {
     gap: 20px;
     display: flex;
   }
   @media (max-width: 991px) {
-    .div-4 {
+    .div-4-about {
       flex-direction: column;
       align-items: stretch;
       gap: 0px;
     }
   }
-  .column {
+  .about-left-column {
     display: flex;
     flex-direction: column;
     line-height: normal;
@@ -45,11 +45,11 @@
     margin-left: 0px;
   }
   @media (max-width: 991px) {
-    .column {
+    .about-left-column {
       width: 100%;
     }
   }
-  .div-5 {
+  .about-left-info {
     justify-content: center;
     align-items: center;
     background-color: var(--Ate-Primary-2, #4d6c4e);
@@ -59,11 +59,11 @@
     padding: 50px 42px;
   }
   @media (max-width: 991px) {
-    .div-5 {
+    .about-left-info {
       padding: 0 20px;
     }
   }
-  .div-6 {
+  .about-left-title {
     color: var(--Ate-Secondary-1, #ffd7cd);
     margin-top: 154px;
     white-space: nowrap;
@@ -71,13 +71,13 @@
       Roboto, Helvetica, sans-serif;
   }
   @media (max-width: 991px) {
-    .div-6 {
+    .about-left-title {
       font-size: 40px;
       margin-top: 40px;
       white-space: initial;
     }
   }
-  .div-7 {
+  .left-text-about {
     justify-content: center;
     color: var(--Ate-Secondary-1, #ffd7cd);
     text-align: center;
@@ -87,11 +87,11 @@
     font: 400 16px Mulish, sans-serif;
   }
   @media (max-width: 991px) {
-    .div-7 {
+    .left-text-about {
       margin-bottom: 40px;
     }
   }
-  .column-2 {
+  .center-column-about {
     display: flex;
     flex-direction: column;
     line-height: normal;
@@ -99,20 +99,20 @@
     margin-left: 20px;
   }
   @media (max-width: 991px) {
-    .column-2 {
+    .center-column-about {
       width: 100%;
     }
   }
-  .div-8 {
+  .div-8-about {
     display: flex;
     flex-direction: column;
   }
   @media (max-width: 991px) {
-    .div-8 {
+    .div-8-about {
       max-width: 100%;
     }
   }
-  .img {
+  .img-hand {
     aspect-ratio: 1.02;
     object-fit: contain;
     object-position: center;
@@ -120,11 +120,11 @@
     overflow: hidden;
   }
   @media (max-width: 991px) {
-    .img {
+    .img-hand {
       max-width: 100%;
     }
   }
-  .div-9 {
+  .button-comprar-about {
     justify-content: center;
     color: var(--Ate-Secondary-1, #ffd7cd);
     text-align: center;
@@ -135,11 +135,11 @@
       sans-serif;
   }
   @media (max-width: 991px) {
-    .div-9 {
+    .button-comprar-about {
       padding: 0 20px;
     }
   }
-  .column-3 {
+  .right-column-about {
     display: flex;
     flex-direction: column;
     line-height: normal;
@@ -147,11 +147,11 @@
     margin-left: 20px;
   }
   @media (max-width: 991px) {
-    .column-3 {
+    .right-column-about {
       width: 100%;
     }
   }
-  .div-10 {
+  .div-10-about {
     justify-content: center;
     background-color: var(--Ate-Primary-2, #4d6c4e);
     display: flex;
@@ -161,11 +161,11 @@
     padding: 50px 42px;
   }
   @media (max-width: 991px) {
-    .div-10 {
+    .div-10-about {
       padding: 0 20px;
     }
   }
-  .div-11 {
+  .div-11-about {
     justify-content: center;
     color: var(--Ate-Secondary-1, #ffd7cd);
     text-align: center;
@@ -174,11 +174,11 @@
     font: 400 16px Mulish, sans-serif;
   }
   @media (max-width: 991px) {
-    .div-11 {
+    .div-11-about {
       margin-top: 40px;
     }
   }
-  .div-12 {
+  .div-12-about {
     color: var(--Ate-Secondary-1, #ffd7cd);
     text-align: center;
     letter-spacing: -0.48px;
@@ -189,7 +189,7 @@
     font: 300 24px Mulish, sans-serif;
   }
   @media (max-width: 991px) {
-    .div-12 {
+    .div-12-about {
       margin-bottom: 40px;
       white-space: initial;
     }
