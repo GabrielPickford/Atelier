@@ -1,0 +1,48 @@
+.div {
+    justify-content: center;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+  }
+  .div-2 {
+    background-color: #fff;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 4px 20px 10px 34px;
+  }
+  @media (max-width: 991px) {
+    .div-2 {
+      max-width: 100%;
+      flex-wrap: wrap;
+      padding-left: 20px;
+    }
+  }
+  .img {
+    aspect-ratio: 1.36;
+    object-fit: contain;
+    object-position: center;
+    width: 30px;
+    overflow: hidden;
+    max-width: 100%;
+    margin: auto 0;
+  }
+  .div-3 {
+    justify-content: center;
+    color: #000;
+    text-align: center;
+    font: 200 43px FONTSPRING DEMO - Artis-Sans Extralight, -apple-system,
+      Roboto, Helvetica, sans-serif;
+  }
+  .img-2 {
+    aspect-ratio: 1.15;
+    object-fit: contain;
+    object-position: center;
+    width: 30px;
+    overflow: hidden;
+    align-self: start;
+    margin-top: 5px;
+    max-width: 100%;
+  }

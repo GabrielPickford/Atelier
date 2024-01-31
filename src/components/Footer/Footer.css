@@ -1,4 +1,4 @@
-.div {
+.padding-footer {
     justify-content: center;
     align-items: center;
     background-color: #fff;
@@ -7,26 +7,26 @@
     padding: 0 60px;
   }
   @media (max-width: 991px) {
-    .div {
+    .padding-footer {
       padding: 0 20px;
     }
   }
-  .div-2 {
+  .elements-footer {
     width: 699px;
     max-width: 100%;
   }
-  .div-3 {
+  .gap-elements-footer {
     gap: 20px;
     display: flex;
   }
   @media (max-width: 991px) {
-    .div-3 {
+    .gap-elements-footer {
       flex-direction: column;
       align-items: stretch;
       gap: 0px;
     }
   }
-  .column {
+  .left-column-footer {
     display: flex;
     flex-direction: column;
     line-height: normal;
@@ -34,11 +34,11 @@
     margin-left: 0px;
   }
   @media (max-width: 991px) {
-    .column {
+    .left-column-footer {
       width: 100%;
     }
   }
-  .img {
+  .img-logo-footer {
     aspect-ratio: 1;
     object-fit: contain;
     object-position: center;
@@ -47,11 +47,11 @@
     flex-grow: 1;
   }
   @media (max-width: 991px) {
-    .img {
+    .img-logo-footer {
       margin-top: 40px;
     }
   }
-  .column-2 {
+  .right-column-footer {
     display: flex;
     flex-direction: column;
     line-height: normal;
@@ -59,21 +59,21 @@
     margin-left: 20px;
   }
   @media (max-width: 991px) {
-    .column-2 {
+    .right-column-footer {
       width: 100%;
     }
   }
-  .div-4 {
+  .text-footer {
     display: flex;
     flex-direction: column;
     margin: auto 0;
   }
   @media (max-width: 991px) {
-    .div-4 {
+    .text-footer {
       margin-top: 40px;
     }
   }
-  .div-5 {
+  .contactanos-footer {
     color: #000;
     font: 400 32px SierraW04-Regular, -apple-system, Roboto, Helvetica,
       sans-serif;
@@ -86,24 +86,24 @@
       sans-serif;
   }
   @media (max-width: 991px) {
-    .div-6 {
+    .whatsapp-footer {
       margin-top: 40px;
     }
   }
-  .div-7 {
+  .number-footer {
     color: #000;
     margin-top: 7px;
     font: 200 20px Mulish, sans-serif;
   }
-  .div-8 {
+  .instagram-text-footer {
     color: #000;
     letter-spacing: -0.48px;
     margin-top: 36px;
     font: 400 24px SierraW04-Regular, -apple-system, Roboto, Helvetica,
       sans-serif;
   }
-  .div-9 {
+  .insta-footer {
     color: #000;
     margin-top: 6px;
     font: 200 20px Mulish, sans-serif;
-  }
+  } 
