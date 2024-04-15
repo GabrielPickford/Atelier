@@ -1,48 +1,41 @@
-.div {
-    justify-content: center;
-    background-color: #fff;
-    display: flex;
-    flex-direction: column;
+.app__navbar__div {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 43px;
+  color: #000;
+  font-weight: 200;
+  white-space: nowrap;
+  text-align: center;
+  padding: 0 30px 10px;
+}
+@media (max-width: 991px) {
+  .app__navbar__div {
+    flex-wrap: wrap;
+    white-space: initial;
+    padding: 0 20px;
   }
-  .div-2 {
-    background-color: #fff;
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: space-between;
-    gap: 20px;
-    padding: 4px 20px 10px 34px;
-  }
-  @media (max-width: 991px) {
-    .div-2 {
-      max-width: 100%;
-      flex-wrap: wrap;
-      padding-left: 20px;
-    }
-  }
-  .img {
-    aspect-ratio: 1.36;
-    object-fit: contain;
-    object-position: center;
-    width: 30px;
-    overflow: hidden;
-    max-width: 100%;
-    margin: auto 0;
-  }
-  .div-3 {
-    justify-content: center;
-    color: #000;
-    text-align: center;
-    font: 200 43px FONTSPRING DEMO - Artis-Sans Extralight, -apple-system,
-      Roboto, Helvetica, sans-serif;
-  }
-  .img-2 {
-    aspect-ratio: 1.15;
-    object-fit: contain;
-    object-position: center;
-    width: 30px;
-    overflow: hidden;
-    align-self: start;
-    margin-top: 5px;
-    max-width: 100%;
-  }
+}
+.app__navbar__img {
+  aspect-ratio: 1.37;
+  object-fit: auto;
+  object-position: center;
+  width: 30px;
+  align-self: stretch;
+  margin: auto 0;
+}
+.app__navbar__div-2 {
+  font: 200 50px 'FONTSPRING DEMO - Artis-Sans Extralight', 'Roboto', 'Helvetica', sans-serif;
+  align-self: stretch;
+  flex-grow: 1;
+  flex-basis: auto;
+}
+.app__navbar__img-2 {
+  object-fit: auto;
+  object-position: center;
+  width: 21px;
+  fill: #000;
+  align-self: stretch;
+  margin: auto 0;
+}

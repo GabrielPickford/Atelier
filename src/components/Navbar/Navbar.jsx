@@ -1,23 +1,21 @@
 import React from 'react';
-
 import './Navbar.css';
 
 const Navbar = () => (
-  <div className="div">
-  <div className="div-2">
+  <div className="app__navbar__div">
     <img
       loading="lazy"
       src="https://cdn.builder.io/api/v1/image/assets/TEMP/464fad22c5a6e4a92587af99f85707618d5c224cb135834441c55221ff6dff03?apiKey=98e930f8e11a4ca795d74fd9501a4b81&"
-      className="img"
+      className="app__navbar__img"
     />
-    <div className="div-3">Atelier</div>
+    <div className="app__navbar__div-2">Atelier</div>
     <img
       loading="lazy"
-      src="https://cdn.builder.io/api/v1/image/assets/TEMP/3af518c8d6ef5ff49c5c3925ad193ee451ef47417c8b6ecca65c37f09d097631?apiKey=98e930f8e11a4ca795d74fd9501a4b81&"
-      className="img-2"
+      src="https://cdn.builder.io/api/v1/image/assets/TEMP/83a0bbb2fab5116f0ab5e43f974f1ab4424964ab3e6276ef12e94e453da12975?apiKey=98e930f8e11a4ca795d74fd9501a4b81&"
+      className="app__navbar__img-2"
     />
   </div>
-</div>
 );
 
 export default Navbar;
+

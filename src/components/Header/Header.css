@@ -1,117 +1,67 @@
-.container-header {
-    background-color: #fff;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 50px 0;
+.app__header__div {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  min-height: 675px;
+  align-items: start;
+  color: #000;
+  font-weight: 400;
+  padding: 80px 80px 80px 30px;
+}
+@media (max-width: 991px) {
+  .app__header__div {
+    padding: 0 20px;
   }
-  .borde-header {
-    width: 100%;
-    margin: 53px 0 32px;
+}
+.app__header__img {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.app__header__div-2 {
+  position: relative;
+  margin-top: 306px;
+  font: 200 50px 'FONTSPRING DEMO - Artis-Sans Extralight', 'Roboto', 'Helvetica', sans-serif;
+}
+@media (max-width: 991px) {
+  .app__header__div-2 {
+    margin-top: 40px;
+    font-size: 40px;
   }
-  @media (max-width: 991px) {
-    .borde-header {
-      max-width: 100%;
-      margin-top: 40px;
-    }
+}
+.app__header__div-3 {
+  position: relative;
+  text-align: center;
+  letter-spacing: -0.32px;
+  margin: 11px 0 0 22px;
+  font: 16px Mulish, sans-serif;
+}
+@media (max-width: 991px) {
+  .app__header__div-3 {
+    margin-left: 10px;
   }
-  .div-img {
-    gap: 20px;
-    display: flex;
+}
+.app__header__div-4 {
+  position: relative;
+  justify-content: center;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 1px;
+  white-space: nowrap;
+  text-align: center;
+  margin: 49px 0 0 37px;
+  padding: 14px 27px;
+  font: 18px SierraW04-Regular, -apple-system, Roboto, Helvetica, sans-serif;
+}
+@media (max-width: 991px) {
+  .app__header__div-4 {
+    white-space: initial;
+    margin: 40px 0 0 10px;
+    padding: 0 20px;
   }
-  @media (max-width: 991px) {
-    .div-img {
-      flex-direction: column;
-      align-items: stretch;
-      gap: 0px;
-    }
-  }
-  .column-img {
-    display: flex;
-    flex-direction: column;
-    line-height: normal;
-    width: 71%;
-    margin-left: 0px;
-  }
-  @media (max-width: 991px) {
-    .column-img {
-      width: 100%;
-    }
-  }
-  .model-girl {
-    aspect-ratio: 1.77;
-    object-fit: contain;
-    object-position: center;
-    width: 100%;
-    overflow: hidden;
-    flex-grow: 1;
-  }
-  @media (max-width: 991px) {
-    .model-girl {
-      max-width: 100%;
-    }
-  }
-  .column-text {
-    display: flex;
-    flex-direction: column;
-    line-height: normal;
-    width: 29%;
-    margin-left: 20px;
-  }
-  @media (max-width: 991px) {
-    .column-text {
-      width: 100%;
-    }
-  }
-  .gift-text {
-    background-color: #fff;
-    display: flex;
-    flex-grow: 1;
-    flex-direction: column;
-    width: 100%;
-    padding: 50px 60px;
-  }
-  @media (max-width: 991px) {
-    .gift-text {
-      padding: 0 20px;
-    }
-  }
-  .atelier-gifts {
-    color: #000;
-    align-self: center;
-    margin-top: 80px;
-    white-space: nowrap;
-    font: 200 50px FONTSPRING DEMO - Artis-Sans Extralight, -apple-system,
-      Roboto, Helvetica, sans-serif;
-  }
-  @media (max-width: 991px) {
-    .atelier-gifts{
-      font-size: 40px;
-      margin-top: 40px;
-      white-space: initial;
-    }
-  }
-  .holiday-text {
-    justify-content: center;
-    color: #000;
-    text-align: center;
-    letter-spacing: -0.32px;
-    margin-top: 21px;
-    font: 400 16px Mulish, sans-serif;
-  }
-  .ver-catalogo {
-    color: #000;
-    text-align: center;
-    letter-spacing: -0.48px;
-    text-decoration-line: underline;
-    align-self: center;
-    white-space: nowrap;
-    margin: 21px 0 64px;
-    font: 300 24px Mulish, sans-serif;
-  }
-  @media (max-width: 991px) {
-    .ver-catalogo {
-      margin-bottom: 40px;
-      white-space: initial;
-    }
-  }
+}

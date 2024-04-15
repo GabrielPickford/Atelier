@@ -1,0 +1,13 @@
+.div {
+    align-items: center;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    padding: 37px 60px 80px;
+    font: 200 40px 'FONTSPRING DEMO - Artis-Sans Extralight', 'Roboto', 'Helvetica', sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div {
+      padding: 0 20px;
+    }
+  }

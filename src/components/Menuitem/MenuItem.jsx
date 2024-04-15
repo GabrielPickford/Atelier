@@ -4,7 +4,7 @@ import './MenuItem.css';
 
 const MenuItem = () => (
   <div>
-    MenuItem
+    <div className="div">NUEVO EN ATELIER</div>
   </div>
 );
 
