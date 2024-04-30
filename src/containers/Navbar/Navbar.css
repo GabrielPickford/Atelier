@@ -27,6 +27,7 @@
 }
 .app__navbar__div-2 {
   font: 200 50px 'FONTSPRING DEMO - Artis-Sans Extralight', 'Roboto', 'Helvetica', sans-serif;
+  font-size: 50px;
   align-self: stretch;
   flex-grow: 1;
   flex-basis: auto;

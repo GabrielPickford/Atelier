@@ -1,0 +1,26 @@
+.app__product__div {
+    display: flex;
+    position: absolute;
+    width: 390px;
+    height: 390px;
+    align-items: end;
+}
+
+.app__product__button {
+    display: flex;
+    align-items:center;
+    justify-content: center; 
+    background-color: #000;
+    color: #fff;
+    margin: 20px;
+    width: 138px;
+    height: 42px;
+    border: none;
+    font: 400 18px SierraW04-Regular, -apple-system, Roboto, Helvetica, sans-serif;
+    &:hover{
+        color: #000;
+        background-color: white;
+        border: 1.5px solid black;
+        cursor: pointer;
+    }
+}

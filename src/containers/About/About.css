@@ -1,0 +1,55 @@
+.app__about__div {
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  width: 100%;
+  margin-top: 80px;
+}
+
+.app__about__column {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 70%;
+}
+
+.app__about__img {
+  object-fit: auto;
+  object-position: center;
+  width: 100%;
+}
+
+.app__about__column-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  margin-left: 20px;
+}
+.app__about__title {
+  text-align: center;
+  align-self: center;
+  font: 200 50px 'FONTSPRING DEMO - Artis-Sans Extralight', 'Roboto', 'Helvetica', sans-serif;
+  font-size: 50px;
+}
+
+.app__about__div-5 {
+  text-align: center;
+  letter-spacing: -0.32px;
+  margin-top: 35px;
+  font: 400 16px Mulish, sans-serif;
+}
+
+.app__about__button {
+  text-align: center;
+  letter-spacing: -0.48px;
+  text-decoration-line: underline;
+  align-self: center;
+  margin-top: 40px;
+  font: 300 24px Mulish, sans-serif;
+  &:hover {
+    color: grey;
+    cursor: pointer;
+  }
+}

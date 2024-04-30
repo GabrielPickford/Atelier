@@ -1,4 +1,4 @@
-import {Navbar, Header, MenuItem, Promo, About, Footer,} from '../components';
+import {Navbar, Header, MenuItem, Promo, About, Footer,} from '../containers';
 
 export default function Home() {
     return (
@@ -9,6 +9,6 @@ export default function Home() {
             <MenuItem />
             <Promo />
             <Footer />
-        </>
+        </> 
     )
 }
