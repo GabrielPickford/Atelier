@@ -1,4 +1,4 @@
-.app__about__div {
+.app__about {
   display: flex;
   justify-content: center;
   background-color: #fff;
@@ -6,20 +6,20 @@
   margin-top: 80px;
 }
 
-.app__about__column {
+.app__about__img-column {
   display: flex;
   flex-direction: column;
-  line-height: normal;
   width: 70%;
 }
 
 .app__about__img {
-  object-fit: auto;
+  object-fit: cover;
   object-position: center;
+  height: 515px;
   width: 100%;
 }
 
-.app__about__column-2 {
+.app__about__info-column {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -27,18 +27,16 @@
   width: 30%;
   margin-left: 20px;
 }
+
 .app__about__title {
   text-align: center;
   align-self: center;
-  font: 200 50px 'FONTSPRING DEMO - Artis-Sans Extralight', 'Roboto', 'Helvetica', sans-serif;
-  font-size: 50px;
 }
 
-.app__about__div-5 {
+.app__about__text {
   text-align: center;
   letter-spacing: -0.32px;
   margin-top: 35px;
-  font: 400 16px Mulish, sans-serif;
 }
 
 .app__about__button {
@@ -48,8 +46,33 @@
   align-self: center;
   margin-top: 40px;
   font: 300 24px Mulish, sans-serif;
+
   &:hover {
     color: grey;
     cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+
+}
+
+@media screen and (max-width: 900px) {
+  .app__about__img-column {
+    width: 50%;
+  }
+
+  .app__about__info-column {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .app__about__img-column {
+    width: 40%;
+  }
+
+  .app__about__info-column {
+    width: 60%;
   }
 }

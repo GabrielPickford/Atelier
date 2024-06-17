@@ -1,40 +1,30 @@
-.app__header__div {
+.app__header {
   display: flex;
-  overflow: hidden;
-  position: relative;
   min-height: 675px;
-  align-items: start;
 }
-
 
 .app__header__img {
   position: absolute;
   height: 100%;
   width: 100%;
   object-fit: cover;
-  object-position: center;
 }
-.app__header__words {
+.app__header__info {
   display: flex;
-  position: relative;  
   flex-direction: column;
   align-items:center;
   justify-content: center;  
-  margin-left: 80px;
+  margin: 60px;
+  z-index: 1;
 }
-
 .app__header__title {
   position: relative;
-  margin-top: 330px;
-  font: 200 50px 'FONTSPRING DEMO - Artis-Sans Extralight', 'Roboto', 'Helvetica', sans-serif;
-  font-size: 50px;
-}
+  margin-top: 330px;}
 
 .app__header__motto {
   position: relative;
   letter-spacing: -0.32px;
   margin: 30px 0 0 0;
-  font: 16px Mulish, sans-serif;
 }
 
 .app__header__button {
@@ -42,8 +32,7 @@
   align-items:center;
   justify-content: center;
   position: relative;
-  border-color: rgba(0, 0, 0, 1);
-  border-style: solid;
+  border: 1px solid;
   border-width: 1px;
   white-space: nowrap;
   text-align: center;
@@ -53,7 +42,23 @@
   font: 18px SierraW04-Regular, -apple-system, Roboto, Helvetica, sans-serif;
   &:hover {
     color: white;
+    border: none;
     background-color: black;
     cursor: pointer;
+  }
+}
+@media screen and (max-width: 1150px) {
+
+}
+
+@media screen and (max-width: 900px) {
+}
+
+@media screen and (max-width: 650px) {
+  .app__header {
+    justify-content: center
+  }
+  .app__header__button {
+    font-size: 16px;
   }
 }

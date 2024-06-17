@@ -1,13 +1,18 @@
-.app__product__div {
+.app__product__card {
     display: flex;
-    position: absolute;
+    margin: 0rem 0.5rem 1rem 0.5rem;
+    flex-wrap: wrap-reverse;
+}
+.app__product__img{
+    display: flex;
     width: 390px;
     height: 390px;
-    align-items: end;
+    object-fit: cover;
+    justify-content: center;
 }
-
 .app__product__button {
     display: flex;
+    position: absolute;
     align-items:center;
     justify-content: center; 
     background-color: #000;
@@ -24,3 +29,32 @@
         cursor: pointer;
     }
 }
+@media screen and (max-width: 1150px) {
+    .app__promo__column{
+      padding: 0 60px;
+    }
+  }
+  @media screen and (max-width: 900px) {
+    .app__product__img{
+        width: 40vw;
+        height: 40vw;
+    }
+    .app__product__button {
+        padding-bottom: 1vh;
+        align-items:end;
+        margin: 0px;
+        width: 40vw;
+        height: 40vw;
+        background: none;
+        &:hover{
+            color: #fff;
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+        }
+    }
+  }
+  
+  @media screen and (max-width: 650px) {
+
+  }

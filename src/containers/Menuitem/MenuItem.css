@@ -1,28 +1,17 @@
-.app__menuitem__div {
+.app__menuitem__title {
   align-items: center;
   background-color: #fff;
   color: #000;
   text-align: center;
-  padding: 37px 0px 80px;
+  padding: 80px 0px 80px;
   font: 200 40px 'FONTSPRING DEMO - Artis-Sans Extralight', 'Roboto', 'Helvetica', sans-serif;
   font-size: 40px;
 }
-
-@media (max-width: 991px) {
-  .app__menuitem__div {
-    padding: 0 20px;
-  }
-}
-.app__menuitem__card{
-  width: 100%;  
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-}
-.app__menuitem__images-container {
+.app__menuitem__card-container {
   display: flex;
   position: relative;
-
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .app__menuitem__card-row{
@@ -40,5 +29,15 @@
 
 .app__menuitem__images-title{
   position: absolute;
+
+}
+@media screen and (max-width: 1150px) {
+
+}
+@media screen and (max-width: 900px) {
+
+}
+
+@media screen and (max-width: 650px) {
 
 }

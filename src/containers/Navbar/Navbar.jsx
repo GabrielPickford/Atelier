@@ -1,21 +1,28 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { PiBagLight } from "react-icons/pi";
 import './Navbar.css';
 
-const Navbar = () => (
-  <div className="app__navbar__div">
-    <img
-      loading="lazy"
-      src="https://cdn.builder.io/api/v1/image/assets/TEMP/464fad22c5a6e4a92587af99f85707618d5c224cb135834441c55221ff6dff03?apiKey=98e930f8e11a4ca795d74fd9501a4b81&"
-      className="app__navbar__img"
-    />
-    <div className="app__navbar__div-2">Atelier</div>
-    <img
-      loading="lazy"
-      src="https://cdn.builder.io/api/v1/image/assets/TEMP/83a0bbb2fab5116f0ab5e43f974f1ab4424964ab3e6276ef12e94e453da12975?apiKey=98e930f8e11a4ca795d74fd9501a4b81&"
-      className="app__navbar__img-2"
-    />
-  </div>
-);
+const Navbar = () => {
+  const [isActive, setIsActive] = useState(false);
+
+  const handleClick = () => {
+    setIsActive(!isActive);
+  };
+
+  return (
+    <div className="app__navbar">
+      <button className={`app__navbar__menu-icon ${isActive ? 'active' : ''}`} onClick={handleClick}>
+        <span></span>
+        <span></span>
+      </button>
+      <div className="app__navbar__title-box">
+        <a className="app__navbar__title h__font" href="#home">Atelier</a>
+      </div>
+      <PiBagLight className="app__navbar__bag" />
+    </div>
+  );
+};
 
 export default Navbar;
+
 

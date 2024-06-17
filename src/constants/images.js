@@ -7,7 +7,9 @@ import ring6 from '../assets/ring6.png';
 import footer from '../assets/footer.png';
 import hand from '../assets/hand.PNG';
 import header from '../assets/header.png';
-import model from '../assets/model.PNG';
+import header2 from '../assets/header2.png';
+import header3 from '../assets/header3.png';
+import model from '../assets/model.png';
 
 export default {
     ring1,
@@ -19,5 +21,7 @@ export default {
     footer,
     hand,
     header,
+    header2,
+    header3,
     model
 }

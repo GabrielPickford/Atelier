@@ -1,42 +1,85 @@
-.app__navbar__div {
-  background-color: #fff;
+.app__navbar {
   display: flex;
   align-items: center;
+  width: 100%;
   gap: 20px;
-  font-size: 43px;
+  background-color: #fff;
   color: #000;
-  font-weight: 200;
-  white-space: nowrap;
   text-align: center;
   padding: 0 30px 10px;
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2);
+  position: fixed;
+  z-index: 100;
 }
-@media (max-width: 991px) {
-  .app__navbar__div {
-    flex-wrap: wrap;
-    white-space: initial;
-    padding: 0 20px;
-  }
-}
-.app__navbar__img {
-  aspect-ratio: 1.37;
-  object-fit: auto;
-  object-position: center;
-  width: 30px;
-  align-self: stretch;
-  margin: auto 0;
-}
-.app__navbar__div-2 {
-  font: 200 50px 'FONTSPRING DEMO - Artis-Sans Extralight', 'Roboto', 'Helvetica', sans-serif;
-  font-size: 50px;
-  align-self: stretch;
+.app__navbar__title-box {
   flex-grow: 1;
-  flex-basis: auto;
 }
-.app__navbar__img-2 {
-  object-fit: auto;
-  object-position: center;
-  width: 21px;
-  fill: #000;
-  align-self: stretch;
-  margin: auto 0;
+.app__navbar__title{
+  color: #000;
+  font-size: 50px;
+}
+.app__navbar__bag {
+  cursor: pointer;
+  width: 2rem;
+  height: 2rem;
+}
+
+/* <reset-style> ============================ */
+button {
+  border: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+/* <main-style> ============================ */
+.app__navbar__menu-icon {
+  width: 2rem;
+  height: 2rem;
+  padding: .25rem;
+  backdrop-filter: saturate(180%) blur(20px);
+  position: relative;
+}
+.app__navbar__menu-icon span {
+  width: 1.5rem;
+  height: 1.5rem;
+  position: absolute;
+  top: calc(.25rem - 1px);
+  left: calc(.25rem - 1px);
+  transition: transform .1806s cubic-bezier(.04,.04,.12,.96);
+}
+.app__navbar__menu-icon span:before {
+  content: '';
+  width: 1.5rem;
+  height: .125rem;
+  background-color: #000;
+  position: absolute;
+  left: 0;
+  transition: transform .1596s cubic-bezier(.52,.16,.52,.84) .1008s;
+}
+.app__navbar__menu-icon span:nth-child(1)::before {
+  top: .625rem;
+  transform: translateY(-3px);
+}
+.app__navbar__menu-icon span:nth-child(2)::before {
+  bottom: .625rem;
+  transform: translateY(3px);
+}
+
+/* Animación al hacer clic */
+.app__navbar__menu-icon.active :nth-child(1),
+.app__navbar__menu-icon.active :nth-child(2) {
+  transition: transform .3192s cubic-bezier(.04,.04,.12,.96) .1008s;
+}
+.app__navbar__menu-icon.active :nth-child(1)::before,
+.app__navbar__menu-icon.active :nth-child(2)::before {
+  transform: none;
+  transition: transform .1806s cubic-bezier(.04,.04,.12,.96);
+}
+.app__navbar__menu-icon.active :nth-child(1) {
+  transform: rotate(45deg) translateY(1px);
+}
+.app__navbar__menu-icon.active :nth-child(2) {
+  transform: rotate(-45deg) translateY(-1px);
 }

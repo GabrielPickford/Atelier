@@ -1,118 +1,86 @@
-.app__promo__div {
+.app__promo {
   justify-content: center;
-  background-color: #fff;
-  display: flex;
-  padding-top: 40px;
-  flex-direction: column;
-
-}
-
-.app__promo__title {
-  color: #000;
-  align-self: center;
-  font: normal 40px 'FONTSPRING DEMO - Artis-Sans Extralight', 'Roboto', 'Helvetica', sans-serif;
-  font-size: 40px;
-}
-
-.app__promo__div-3 {
   background-color: var(--Ate-Primary-2, #4d6c4e);
-  margin-top: 29px;
-  width: 100%;
-}
-
-.app__promo__div-4 {
-  gap: 20px;
   display: flex;
-}
-
-.app__promo__column {
-  display: flex;
+  padding: 40px 0;
   flex-direction: column;
-  line-height: normal;
-  width: 25%;
-  margin-left: 30px;
-  margin-right: 30px;
-}
-
-.app__promo__div-5 {
-  display: flex;
-  flex-direction: column;
-  align-self: stretch;
   color: var(--Ate-Secondary-1, #ffd7cd);
-  margin: auto 0;
+  margin-top: 30px;
 }
-
-.app__promo__div-6 {
+.app__promo__title {
+  align-self: center;
+  margin-bottom: 30px;
+}
+.app__promo__content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.app__promo__subtitle {
   text-align: center;
   align-self: center;
-  font: 200 50px 'FONTSPRING DEMO - Artis-Sans Extralight', 'Roboto', 'Helvetica', sans-serif;
-  font-size: 50px;
 }
-
-.app__promo__div-7 {
+.app__promo__text {
   text-align: center;
   letter-spacing: -0.32px;
   margin-top: 35px;
-  font: 400 16px Mulish, sans-serif;
 }
-
-.app__promo__column-2 {
+.app__promo__img-box {
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
   flex-direction: column;
-  color: var(--Ate-Secondary-1, #ffd7cd);
-  width: 50%;
+  width: 36vw;
 }
-
-
 .app__promo__img {
-
-  object-position: center;
+  border: 4px solid white;
   width: 100%;
 }
-
-.app__promo__button {
+.app__promo__column {
   display: flex;
-  align-items: center;
   justify-content: center;
-  position: relative;
-  font-family: SierraW04-Regular, -apple-system, Roboto, Helvetica, sans-serif;
-
-  border: 1px solid var(--Ate-Secondary-1, #ffd7cd);
-  margin: 30px 0 30px 0px;
-  width: 138px;
-  height: 42px;
-  &:hover {
-    color: var(--Ate-Primary-2, #4d6c4e);
-    background-color: var(--Ate-Secondary-1, #ffd7cd);
-    cursor: pointer;
-  }
-}
-
-.app__promo__div-10 {
-  display: flex;
+  text-align: center; 
   flex-direction: column;
-  align-self: stretch;
-  color: var(--Ate-Secondary-1, #ffd7cd);
-  text-align: center;
-  margin: auto 0;
+  padding: 0 60px;
+  margin: 30px 0;
+  width: 33vw;
 }
-
-.app__promo__div-11 {
-  letter-spacing: -0.32px;
-  font: 400 16px Mulish, sans-serif;
-}
-
-.app__promo__catalog-button{
+.app__promo__catalog-button {
   letter-spacing: -0.48px;
   text-decoration-line: underline;
   align-self: center;
   margin-top: 40px;
   font: 300 24px Mulish, sans-serif;
+
   &:hover {
-    color:#ffd7cd85;
+    color: #ffd7cd85;
     cursor: pointer;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .app__promo__column{
+    padding: 0 60px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .app__promo__content{
+    flex-direction: column;
+  }
+  .app__promo__title {
+    margin-bottom: 30px;
+  }
+  .app__promo__column, 
+  .app__promo__img-box {
+    padding: 0 60px;
+    width: 80vw;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .app__promo__column, 
+  .app__promo__img-box {
+    padding: 0 60px;
+    width: 90vw;
   }
 }
