@@ -7,7 +7,8 @@ import ring6 from '../assets/ring6.png';
 import footer from '../assets/footer.png';
 import hand from '../assets/hand.PNG';
 import header3 from '../assets/header3.png';
-import model from '../assets/model2.png';
+import necklace from '../assets/necklace.png';
+// import model from '../assets/model2.png';
 
 const images={
     ring1,
@@ -19,6 +20,6 @@ const images={
     footer,
     hand,
     header3,
-    model
+    necklace
 }
 export default images;

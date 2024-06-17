@@ -5,7 +5,7 @@ import './About.css';
 const About = () => (
   <div className="app__about">
     <div className="app__about__img-column">
-      <img src={images.model} className="app__about__img" alt='neckles'/>
+      <img src={images.necklace} className="app__about__img" alt=''/>
     </div>
     <div className="app__about__info-column">
       <div className="app__about__title h__font">Atelier gifts</div>
