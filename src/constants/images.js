@@ -6,12 +6,10 @@ import ring5 from '../assets/ring5.png';
 import ring6 from '../assets/ring6.png';
 import footer from '../assets/footer.png';
 import hand from '../assets/hand.PNG';
-import header from '../assets/header.png';
-import header2 from '../assets/header2.png';
 import header3 from '../assets/header3.png';
-import model from '../assets/model.png';
+import model from '../assets/model2.png';
 
-export default {
+const images={
     ring1,
     ring2,
     ring3,
@@ -20,8 +18,7 @@ export default {
     ring6,
     footer,
     hand,
-    header,
-    header2,
     header3,
     model
 }
+export default images;
