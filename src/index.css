@@ -11,3 +11,13 @@
   --color-purple: rgba(65, 1, 96, 1);
   --color-yellow: #ffde00;;
 }
+
+@font-face {
+  font-family: 'FONTSPRING DEMO - Artis-Sans';
+  src: url('/public/fonts/FONTSPRINGDEMO-Artis-SansExtralightRegular.woff2') format('woff2'),
+       url('/public/fonts/FONTSPRINGDEMO-Artis-SansExtralightRegular.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+

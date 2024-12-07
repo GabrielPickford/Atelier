@@ -8,7 +8,6 @@ import footer from '../assets/footer.png';
 import hand from '../assets/hand.PNG';
 import header3 from '../assets/header3.png';
 import necklace from '../assets/necklace.png';
-// import model from '../assets/model2.png';
 
 const images={
     ring1,
