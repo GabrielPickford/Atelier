@@ -31,6 +31,7 @@
 .app__about__title {
   text-align: center;
   align-self: center;
+  font-size: 40px;
 }
 
 .app__about__text {

@@ -15,8 +15,12 @@
     }
 
     .h__font {
-        font: 200 40px 'FONTSPRING DEMO - Artis-Sans Extralight', 'Roboto', 'Helvetica', sans-serif;
+        font: 200 40px  SierraW04-Regular ,serif;
     }
+
+    /* .h__font {
+        font: 200 40px serif;
+    } */
 
     @-webkit-keyframes scale-up-center {
         0% {

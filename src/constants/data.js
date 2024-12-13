@@ -27,4 +27,6 @@ const ring = [
     }
 ];
 
-export default {ring};
+const data = { ring };
+
+export default data;

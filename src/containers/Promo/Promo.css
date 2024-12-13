@@ -10,6 +10,7 @@
 .app__promo__title {
   align-self: center;
   margin-bottom: 30px;
+  font-size: 40px;
 }
 .app__promo__content {
   width: 100%;
@@ -19,6 +20,7 @@
 .app__promo__subtitle {
   text-align: center;
   align-self: center;
+  font-size: 40px;
 }
 .app__promo__text {
   text-align: center;
